@@ -17,7 +17,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     padding: 0;
     border: 0;
     outline: 0;
-    font-size: 100%;
+    font-size: 1em;
     vertical-align: baseline;
     background: transparent;
 }
@@ -59,7 +59,7 @@ table {
 
 body {
     background: #fff;
-    font: 62.5% "Microsoft Yahei" , palatino, "times new roman" , serif;
+    font: 100% "Microsoft Yahei" , palatino, "times new roman" , serif;
     color: #333;
 }
 strong {
@@ -81,7 +81,7 @@ a:hover, a:active {
 
 h1 {
     margin: 10px 0 20px;
-    font-size: 3.3em;
+    font-size: 3em;
     font-weight: normal;
     text-transform: uppercase;
     letter-spacing: .05em;
@@ -210,7 +210,7 @@ input[type=submit]:hover, input[type=submit]:focus {
 #mainNav li {
     display: inline;
     margin-right: 20px;
-    font-size: 1.5em;
+    font-size: 1.2em;
     text-transform: uppercase;
 }
 #mainNav li:last-child {
@@ -299,24 +299,22 @@ input[type=submit]:hover, input[type=submit]:focus {
 }
 #coreContent p, #coreContent li, #coreContent dd {
     margin-bottom: 1.7em;
-    font-size: 1.4em;
     line-height: 1.5em;
     color: #333;
     text-align: justify;
 }
 #coreContent p {
     text-align: justify;
-    text-indent: 2em;
 }
 #coreContent code {
-    font-size: 1.4em;
+    font-size: 1.2em;
 }
 #coreContent li {
-    list-style: square;
+    list-style: disc;
     margin-left: 17px;
 }
 #coreContent dt {
-    font-size: 1.3em;
+    font-size: 1.2em;
     color: #333;
 }
 .entry-content {
@@ -335,7 +333,7 @@ input[type=submit]:hover, input[type=submit]:focus {
 }
 #coreContent .postMeta {
     margin: 40px auto 0;
-    font-size: 1.3em;
+    font-size: 1.2em;
     color: #999;
 }
 #coreContent .postMeta div {
@@ -396,7 +394,6 @@ input[type=submit]:hover, input[type=submit]:focus {
     margin-bottom: 5px !important;
 }
 .entry-content blockquote {
-    font-size: 1.4em;
     font-style: italic;
     line-height: 1.5em;
     color: #7D7D7D;
@@ -405,7 +402,6 @@ input[type=submit]:hover, input[type=submit]:focus {
     border-left: 3px solid #ccc;
 }
 #coreContent .entry-content blockquote p {
-    font-size: 1.1em;
     line-height: 1.3em;
     color: #7D7D7D;
 }
@@ -419,10 +415,11 @@ input[type=submit]:hover, input[type=submit]:focus {
 }
 .entry-content .wp-caption.alignnone {
     margin-bottom: 15px;
+    margin-left: 20px;
 }
 #coreContent .entry-content p.wp-caption-text {
-    font-size: 1.1em;
     font-style: italic;
+    font-size: 0.9em;
     color: #666;
     margin-bottom: 0;
 }
