@@ -65,9 +65,7 @@ body {
 strong {
     font-weight: bold;
 }
-
 /* Links */
-
 a:link, a:visited {
     /* color: #9C8A6A; */
     text-decoration: none;
@@ -306,9 +304,6 @@ input[type=submit]:hover, input[type=submit]:focus {
 #coreContent p {
     text-align: justify;
 }
-#coreContent code {
-    font-size: 1em;
-}
 #coreContent li {
     list-style: disc;
     margin-left: 17px;
@@ -374,11 +369,17 @@ input[type=submit]:hover, input[type=submit]:focus {
     color: #000;
 }
 .entry-content pre {
-    color: #666;
+    color: #85F950;
+    font-family: monaco, menlo, monospace, sans-serif;
     margin-bottom: 15px;
     margin-left: 20px;
-    border-left: solid 3px #CCC;
-    padding-left: 10px;
+    background-color: #000;
+    padding: 5px;
+    width: 700px;
+    max-width: 700px;
+    overflow: scroll;
+}
+.entry-content pre code {
 }
 .entry-content ul, .entry-content ol {
     margin: 0 0 20px 15px;
