@@ -375,10 +375,10 @@ input[type=submit]:hover, input[type=submit]:focus {
     margin-bottom: 15px;
     margin-left: 20px;
     background-color: #000;
-    padding: 5px;
+    padding: 5px 10px;
     width: 700px;
     max-width: 700px;
-    overflow: scroll;
+    overflow: auto;
 }
 .entry-content pre code {
 }
